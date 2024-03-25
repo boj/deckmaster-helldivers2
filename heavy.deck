@@ -1,0 +1,138 @@
+[[keys]]
+index = 0
+[keys.action]
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/generic/generic-back.png"
+
+[[keys]]
+index = 1
+[keys.action]
+exec = "bin/helldivers machine-gun"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Patriotic Administration Center/Machine Gun.png"
+
+[[keys]]
+index = 2
+[keys.action]
+exec = "bin/helldivers anti-material-rifle"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Patriotic Administration Center/Anti-Materiel Rifle.png"
+
+[[keys]]
+index = 3
+[keys.action]
+exec = "bin/helldivers stalwart"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Patriotic Administration Center/Stalwart.png"
+
+[[keys]]
+index = 4
+[keys.action]
+exec = "bin/helldivers expendable-anti-tank"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Patriotic Administration Center/Expendable Anti-Tank.png"
+
+[[keys]]
+index = 5
+[keys.action]
+exec = "bin/helldivers recoilless-rifle"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Patriotic Administration Center/Recoilless Rifle.png"
+
+[[keys]]
+index = 6
+[keys.action]
+exec = "bin/helldivers flamethrower"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Patriotic Administration Center/Flamethrower.png"
+
+[[keys]]
+index = 7
+[keys.action]
+exec = "bin/helldivers autocannon"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Patriotic Administration Center/Autocannon.png"
+
+[[keys]]
+index = 8
+[keys.action]
+exec = "bin/helldivers railgun"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Patriotic Administration Center/Railgun.png"
+
+[[keys]]
+index = 9
+[keys.action]
+exec = "bin/helldivers spear"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Patriotic Administration Center/Spear.png"
+
+[[keys]]
+index = 10
+[keys.action]
+exec = "bin/helldivers grenade-launcher"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Engineering Bay/Grenade Launcher.png"
+
+[[keys]]
+index = 11
+[keys.action]
+exec = "bin/helldivers laser-cannon"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Engineering Bay/Laser Cannon.png"
+
+[[keys]]
+index = 12
+[keys.action]
+exec = "bin/helldivers arc-thrower"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Engineering Bay/Arc Thrower.png"
+
+[[keys]]
+index = 13
+[keys.action]
+exec = "bin/helldivers patriot-exosuit"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Robotics Workshop/Patriot Exosuit.png"

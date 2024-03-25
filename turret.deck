@@ -1,0 +1,119 @@
+[[keys]]
+index = 0
+[keys.action]
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/generic/generic-back.png"
+
+[[keys]]
+index = 1
+[keys.action]
+exec = "bin/helldivers machine-gun-sentry"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Robotics Workshop/Machine Gun Sentry.png"
+
+[[keys]]
+index = 2
+[keys.action]
+exec = "bin/helldivers gatling-sentry"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Robotics Workshop/Gatling Sentry.png"
+
+[[keys]]
+index = 3
+[keys.action]
+exec = "bin/helldivers mortar-sentry"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Robotics Workshop/Mortar Sentry.png"
+
+[[keys]]
+index = 4
+[keys.action]
+exec = "bin/helldivers autocannon-sentry"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Robotics Workshop/Autocannon Sentry.png"
+
+[[keys]]
+index = 5
+[keys.action]
+exec = "bin/helldivers rocket-sentry"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Robotics Workshop/Rocket Sentry.png"
+
+[[keys]]
+index = 6
+[keys.action]
+exec = "bin/helldivers ems-mortar-sentry"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Robotics Workshop/EMS Mortar Sentry.png"
+
+[[keys]]
+index = 7
+[keys.action]
+exec = "bin/helldivers anti-personnel-minefield"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Engineering Bay/Anti-Personnel Minefield.png"
+
+[[keys]]
+index = 8
+[keys.action]
+exec = "bin/helldivers icendiary-mines"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Engineering Bay/Incendiary Mines.png"
+
+[[keys]]
+index = 9
+[keys.action]
+exec = "bin/helldivers hmg-emplacement"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Bridge/HMG Emplacement.png"
+
+[[keys]]
+index = 10
+[keys.action]
+exec = "bin/helldivers shield-generator-relay"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Bridge/Shield Generator Relay.png"
+
+[[keys]]
+index = 11
+[keys.action]
+exec = "bin/helldivers tesla-tower"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Bridge/Tesla Tower.png"
+

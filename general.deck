@@ -1,0 +1,59 @@
+[[keys]]
+index = 0
+[keys.action]
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/generic/generic-back.png"
+
+[[keys]]
+index = 1
+[keys.action]
+exec = "bin/helldivers seaf-artillery"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/General Stratagems/SEAF Artillery.png"
+
+[[keys]]
+index = 2
+[keys.action]
+exec = "bin/helldivers hellbomb"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/General Stratagems/Hellbomb.png"
+
+[[keys]]
+index = 3
+[keys.action]
+exec = "bin/helldivers upload-data"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/General Stratagems/Upload Data.png"
+
+[[keys]]
+index = 4
+[keys.action]
+exec = "bin/helldivers seismic-probe"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/General Stratagems/Seismic Probe.png"
+
+[[keys]]
+index = 5
+[keys.action]
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/General Stratagems/Prospecting Drill.png"
+
+

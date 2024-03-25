@@ -1,0 +1,204 @@
+#!/usr/bin/env bash
+set -e
+
+# Same as my ligbov script from https://github.com/boj/ligvoc/
+
+CTRL=Control_L
+UP=Up
+LEFT=Left
+RIGHT=Right
+DOWN=Down
+
+function ctrl {
+    cmd="xdotool keydown $CTRL"
+    for arg in $*; do
+        cmd+=" key --delay 100 $arg"
+    done
+    cmd+=" keyup $CTRL"
+    echo $cmd
+    eval $cmd
+}
+
+case $1 in
+    # Weapons
+    machine-gun)
+        ctrl $DOWN $LEFT $DOWN $UP $RIGHT
+        ;;
+    anti-material-rifle)
+        ctrl $DOWN $LEFT $RIGHT $UP $DOWN
+        ;;
+    stalwart)
+        ctrl $DOWN $LEFT $DOWN $UP $UP $LEFT
+        ;;
+    expendable-anti-tank)
+        ctrl $DOWN $DOWN $LEFT $UP $RIGHT
+        ;;
+    recoilless-rifle)
+        ctrl $DOWN $LEFT $RIGHT $RIGHT $LEFT
+        ;;
+    flamethrower)
+        ctrl $DOWN $LEFT $UP $DOWN $UP
+        ;;
+    autocannon)
+        ctrl $DOWN $LEFT $DOWN $UP $UP $RIGHT
+        ;;
+    railgun)
+        ctrl $DOWN $RIGHT $DOWN $UP $LEFT $RIGHT
+        ;;
+    spear)
+        ctrl $DOWN $DOWN $UP $DOWN $DOWN
+        ;;
+    # Orbitals
+    gatling-barrage)
+        ctrl $RIGHT $DOWN $LEFT $UP $UP
+        ;;
+    airburst-strike)
+        ctrl $RIGHT $RIGHT $RIGHT
+        ;;
+    120mm-he-barrage)
+        ctrl $RIGHT $DOWN $DOWN $LEFT $DOWN $RIGHT $DOWN $DOWN
+        ;;
+    380mm-he-barrage)
+        ctrl $RIGHT $DOWN $UP $UP $LEFT $DOWN $DOWN
+        ;;
+    walking-barrage)
+        ctrl $RIGHT $DOWN $RIGHT $DOWN $RIGHT $DOWN
+        ;;
+    laser-strike)
+        ctrl $RIGHT $DOWN $LEFT $UP $RIGHT $DOWN
+        ;;
+    railcannon-strike)
+        ctrl $RIGHT $UP $DOWN $DOWN $RIGHT
+        ;;
+    # Hanger
+    eagle-rearm)
+        ctrl $UP $UP $LEFT $UP RIGHT
+        ;;
+    eagle-strafing-run)
+        ctrl $UP $RIGHT $RIGHT
+        ;;
+    eagle-airstrike)
+        ctrl $UP $RIGHT $DOWN $RIGHT
+        ;;
+    eagle-cluster-bomb)
+        ctrl $UP $RIGHT $DOWN $DOWN $RIGHT
+        ;;
+    eagle-napalm-airstrike)
+        ctrl $UP $RIGHT $DOWN $UP
+        ;;
+    jump-pack)
+        ctrl $DOWN $UP $UP $DOWN $UP
+        ;;
+    eagle-smoke-strike)
+        ctrl $UP $RIGHT $UP $DOWN
+        ;;
+    eagle-110mm-rocket-pods)
+        ctrl $UP $RIGHT $UP $DOWN
+        ;;
+    eagle-500kg-bomb)
+        ctrl $UP $RIGHT $DOWN $DOWN $DOWN
+        ;;
+    # Bridge
+    orbital-precision-strikes)
+        ctrl $RIGHT $RIGHT $UP
+        ;;
+    orbital-gas-strike)
+        ctrl $RIGHT $RIGHT $DOWN $RIGHT
+        ;;
+    orbital-ems-strike)
+        ctrl $RIGHT $RIGHT $LEFT $DOWN
+        ;;
+    orbital-smoke-strike)
+        ctrl $RIGHT $RIGHT $DOWN $UP
+        ;;
+    hmg-emplacement)
+        ctrl $DOWN $UP $LEFT $RIGHT $RIGHT $LEFT
+        ;;
+    shield-generator-relay)
+        ctrl $DOWN $DOWN $LEFT $RIGHT $LEFT $RIGHT
+        ;;
+    tesla-tower)
+        ctrl $DOWN $UP $RIGHT $UP $LEFT $RIGHT
+        ;;
+    # Engineering Bay
+    anti-personnel-minefield)
+        ctrl $DOWN $LEFT $DOWN $UP $RIGHT
+        ;;
+    supply-pack)
+        ctrl $DOWN $LEFT $DOWN $UP $UP $DOWN
+        ;;
+    grenade-launcher)
+        ctrl $DOWN $LEFT $UP $LEFT $DOWN $DOWN
+        ;;
+    laser-cannon)
+        ctrl $DOWN $LEFT $DOWN $UP $LEFT
+        ;;
+    incendiary-mines)
+        ctrl $DOWN $LEFT $LEFT $DOWN
+        ;;
+    guard-dog-rover)
+        ctrl $DOWN $UP $LEFT $UP $RIGHT $RIGHT
+        ;;
+    ballistic-shield-backpack)
+        ctrl $DOWN $LEFT $DOWN $DOWN $UP $RIGHT
+        ;;
+    arc-thrower)
+        ctrl $DOWN $RIGHT $DOWN $UP $LEFT $LEFT
+        ;;
+    shield-generator-pack)
+        ctrl $DOWN $UP $LEFT $RIGHT $LEFT $RIGHT
+        ;;
+    # Robotics
+    machine-gun-sentry)
+        ctrl $DOWN $UP $RIGHT $RIGHT $UP
+        ;;
+    gatling-sentry)
+        ctrl $DOWN $UP $RIGHT $LEFT
+        ;;
+    mortar-sentry)
+        ctrl $DOWN $UP $RIGHT $RIGHT $DOWN
+        ;;
+    guard-dog)
+        ctrl $DOWN $UP $LEFT $UP $RIGHT $DOWN
+        ;;
+    autocannon-sentry)
+        ctrl $DOWN $UP $LEFT $UP $RIGHT $UP
+        ;;
+    rocket-sentry)
+        ctrl $DOWN $UP $RIGHT $RIGHT $LEFT
+        ;;
+    ems-mortar-sentry)
+        ctrl $DOWN $UP $RIGHT $DOWN $RIGHT
+        ;;
+    patriot-exosuit)
+        ctrl $LEFT $DOWN $RIGHT $UP $LEFT $DOWN $DOWN
+        ;;
+    # Mission
+    reinforce)
+        ctrl $UP $DOWN $RIGHT $LEFT $UP
+        ;;
+    resupply)
+        ctrl $DOWN $DOWN $UP $RIGHT
+        ;;
+    sos-beacon)
+        ctrl $UP $DOWN $RIGHT $UP
+        ;;
+    super-earth-flag)
+        ctrl $DOWN $UP $DOWN $UP
+        ;;
+    upload-data)
+        ctrl $LEFT $RIGHT $UP $UP $UP
+        ;;
+    hellbomb)
+        ctrl $DOWN $UP $LEFT $DOWN $UP $RIGHT $DOWN $UP
+        ;;
+    seaf-artillery)
+        ctrl $DOWN $UP $UP $LEFT
+        ;;
+    global-illumination-flare)
+        ctrl $RIGHT $RIGHT $LEFT $LEFT
+        ;;
+    seismic-probe)
+        ctrl $UP $UP $LEFT $RIGHT $DOWN $DOWN
+        ;;
+esac

@@ -1,0 +1,98 @@
+[[keys]]
+index = 0
+[keys.action]
+exec = "bin/helldivers reinforce"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/General Stratagems/Reinforce.png"
+
+[[keys]]
+index = 1
+[keys.action]
+exec = "bin/helldivers resupply"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/General Stratagems/Resupply.png"
+
+[[keys]]
+index = 2
+[keys.action]
+exec = "bin/helldivers sos-beacon"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/General Stratagems/SOS Beacon.png"
+
+[[keys]]
+index = 3
+[keys.action]
+exec = "bin/helldivers eagle-rearm"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Hangar/Eagle Rearm.png"
+
+[[keys]]
+index = 4
+[keys.action]
+deck = "general.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/generic/generic-folder.png"
+
+[[keys]]
+index = 5
+[keys.action]
+deck = "packs.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Engineering Bay/Supply Pack.png"
+
+[[keys]]
+index = 6
+[keys.action]
+deck = "heavy.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Patriotic Administration Center/Anti-Materiel Rifle.png"
+
+[[keys]]
+index = 7
+[keys.action]
+deck = "eagle.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Hangar/Eagle 110MM Rocket Pods.png"
+
+[[keys]]
+index = 8
+[keys.action]
+deck = "orbital.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Orbital Cannons/Orbital 120MM HE Barrage.png"
+
+[[keys]]
+index = 9
+[keys.action]
+deck = "turret.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Robotics Workshop/Machine Gun Sentry.png"
+
+[[keys]]
+index = 9
+[keys.action]
+deck = "turret.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Robotics Workshop/Machine Gun Sentry.png"

@@ -1,0 +1,71 @@
+[[keys]]
+index = 0
+[keys.action]
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/generic/generic-back.png"
+
+[[keys]]
+index = 1
+[keys.action]
+exec = "bin/helldivers jump-pack"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Hangar/Jump Pack.png"
+
+[[keys]]
+index = 2
+[keys.action]
+exec = "bin/helldivers supply-pack"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Engineering Bay/Supply Pack.png"
+
+[[keys]]
+index = 3
+[keys.action]
+exec = "bin/helldivers guard-dog-rover"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Engineering Bay/Guard Dog Rover.png"
+
+[[keys]]
+index = 4
+[keys.action]
+exec = "bin/helldivers ballistic-shield-backpack"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Engineering Bay/Ballistic Shield Backpack.png"
+
+[[keys]]
+index = 5
+[keys.action]
+exec = "bin/helldivers shield-generator-pack"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Engineering Bay/Shield Generator Pack.png"
+
+[[keys]]
+index = 6
+[keys.action]
+exec = "bin/helldivers guard-dog"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Robotics Workshop/Guard Dog.png"
+
+
+

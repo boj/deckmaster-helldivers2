@@ -1,0 +1,79 @@
+[[keys]]
+index = 0
+[keys.action]
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/generic/generic-back.png"
+
+[[keys]]
+index = 1
+[keys.action]
+exec = "bin/helldivers eagle-strafing-run"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Hangar/Eagle Strafing Run.png"
+
+[[keys]]
+index = 2
+[keys.action]
+exec = "bin/helldivers eagle-airstrike"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Hangar/Eagle Airstrike.png"
+
+[[keys]]
+index = 3
+[keys.action]
+exec = "bin/helldivers eagle-cluster-bomb"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Hangar/Eagle Cluster Bomb.png"
+
+[[keys]]
+index = 4
+[keys.action]
+exec = "bin/helldivers eagle-napalm-airstrike"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Hangar/Eagle Napalm Airstrike.png"
+
+[[keys]]
+index = 5
+[keys.action]
+exec = "bin/helldivers eagle-smoke-strike"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Hangar/Eagle Smoke Strike.png"
+
+[[keys]]
+index = 6
+[keys.action]
+exec = "bin/helldivers eagle-110mm-rocket-pods"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Hangar/Eagle 110MM Rocket Pods.png"
+
+[[keys]]
+index = 7
+[keys.action]
+exec = "bin/helldivers eagle-500kg-bomb"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Hangar/Eagle 500KG Bomb.png"
+

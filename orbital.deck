@@ -1,0 +1,118 @@
+[[keys]]
+index = 0
+[keys.action]
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/generic/generic-back.png"
+
+[[keys]]
+index = 1
+[keys.action]
+exec = "bin/helldivers gatling-barrage"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Orbital Cannons/Orbital Gatling Barrage.png"
+
+[[keys]]
+index = 2
+[keys.action]
+exec = "bin/helldivers airburst-strike"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Orbital Cannons/Orbital Airburst Strike.png"
+
+[[keys]]
+index = 3
+[keys.action]
+exec = "bin/helldivers 120mm-he-barrage"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Orbital Cannons/Orbital 120MM HE Barrage.png"
+
+[[keys]]
+index = 4
+[keys.action]
+exec = "bin/helldivers 380mm-he-barrage"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Orbital Cannons/Orbital 380MM HE Barrage.png"
+
+[[keys]]
+index = 5
+[keys.action]
+exec = "bin/helldivers walking-barrage"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Orbital Cannons/Orbital Walking Barrage.png"
+
+[[keys]]
+index = 6
+[keys.action]
+exec = "bin/helldivers laser-strike"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Orbital Cannons/Orbital Laser.png"
+
+[[keys]]
+index = 7
+[keys.action]
+exec = "bin/helldivers railcannon-strike"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Orbital Cannons/Orbital Railcannon Strike.png"
+
+[[keys]]
+index = 8
+[keys.action]
+exec = "bin/helldivers orbital-precision-strikes"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Bridge/Orbital Precision Strike.png"
+
+[[keys]]
+index = 9
+[keys.action]
+exec = "bin/helldivers orbital-gas-strike"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Bridge/Orbital Gas Strike.png"
+
+[[keys]]
+index = 10
+[keys.action]
+exec = "bin/helldivers orbital-ems-strike"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Bridge/Orbital EMS Strike.png"
+
+[[keys]]
+index = 11
+[keys.action]
+exec = "bin/helldivers orbital-smoke-strike"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Bridge/Orbital Smoke Strike.png"
