@@ -56,7 +56,7 @@ case $1 in
         ctrl $RIGHT $RIGHT $RIGHT
         ;;
     120mm-he-barrage)
-        ctrl $RIGHT $DOWN $DOWN $LEFT $DOWN $RIGHT $DOWN $DOWN
+        ctrl $RIGHT $RIGHT $DOWN $LEFT $RIGHT $DOWN
         ;;
     380mm-he-barrage)
         ctrl $RIGHT $DOWN $UP $UP $LEFT $DOWN $DOWN
@@ -122,7 +122,7 @@ case $1 in
         ;;
     # Engineering Bay
     anti-personnel-minefield)
-        ctrl $DOWN $LEFT $DOWN $UP $RIGHT
+        ctrl $DOWN $LEFT $UP $RIGHT
         ;;
     supply-pack)
         ctrl $DOWN $LEFT $DOWN $UP $UP $DOWN
