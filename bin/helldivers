@@ -20,7 +20,7 @@ function ctrl {
 }
 
 case $1 in
-    # Weapons
+    # Patriotic Administration Center
     machine-gun)
         ctrl $DOWN $LEFT $DOWN $UP $RIGHT
         ;;
@@ -42,13 +42,16 @@ case $1 in
     autocannon)
         ctrl $DOWN $LEFT $DOWN $UP $UP $RIGHT
         ;;
+    heavy-machine-gun)
+        ctrl $DOWN $LEFT $UP $DOWN $DOWN
+        ;;
     railgun)
         ctrl $DOWN $RIGHT $DOWN $UP $LEFT $RIGHT
         ;;
     spear)
         ctrl $DOWN $DOWN $UP $DOWN $DOWN
         ;;
-    # Orbitals
+    # Orbital Cannons
     gatling-barrage)
         ctrl $RIGHT $DOWN $LEFT $UP $UP
         ;;
@@ -70,10 +73,29 @@ case $1 in
     railcannon-strike)
         ctrl $RIGHT $UP $DOWN $DOWN $RIGHT
         ;;
-    # Hanger
-    eagle-rearm)
-        ctrl $UP $UP $LEFT $UP RIGHT
+    # Bridge
+    orbital-precision-strikes)
+        ctrl $RIGHT $RIGHT $UP
         ;;
+    orbital-gas-strike)
+        ctrl $RIGHT $RIGHT $DOWN $RIGHT
+        ;;
+    orbital-ems-strike)
+        ctrl $RIGHT $RIGHT $LEFT $DOWN
+        ;;
+    orbital-smoke-strike)
+        ctrl $RIGHT $RIGHT $DOWN $UP
+        ;;
+    hmg-emplacement)
+        ctrl $DOWN $UP $LEFT $RIGHT $RIGHT $LEFT
+        ;;
+    shield-generator-relay)
+        ctrl $DOWN $DOWN $LEFT $RIGHT $LEFT $RIGHT
+        ;;
+    tesla-tower)
+        ctrl $DOWN $UP $RIGHT $UP $LEFT $RIGHT
+        ;;
+    # Hanger
     eagle-strafing-run)
         ctrl $UP $RIGHT $RIGHT
         ;;
@@ -98,27 +120,8 @@ case $1 in
     eagle-500kg-bomb)
         ctrl $UP $RIGHT $DOWN $DOWN $DOWN
         ;;
-    # Bridge
-    orbital-precision-strikes)
-        ctrl $RIGHT $RIGHT $UP
-        ;;
-    orbital-gas-strike)
-        ctrl $RIGHT $RIGHT $DOWN $RIGHT
-        ;;
-    orbital-ems-strike)
-        ctrl $RIGHT $RIGHT $LEFT $DOWN
-        ;;
-    orbital-smoke-strike)
-        ctrl $RIGHT $RIGHT $DOWN $UP
-        ;;
-    hmg-emplacement)
-        ctrl $DOWN $UP $LEFT $RIGHT $RIGHT $LEFT
-        ;;
-    shield-generator-relay)
-        ctrl $DOWN $DOWN $LEFT $RIGHT $LEFT $RIGHT
-        ;;
-    tesla-tower)
-        ctrl $DOWN $UP $RIGHT $UP $LEFT $RIGHT
+    eagle-rearm)
+        ctrl $UP $UP $LEFT $UP RIGHT
         ;;
     # Engineering Bay
     anti-personnel-minefield)
@@ -145,10 +148,13 @@ case $1 in
     arc-thrower)
         ctrl $DOWN $RIGHT $DOWN $UP $LEFT $LEFT
         ;;
+    quasar-cannon)
+        ctrl $DOWN $DOWN $UP $LEFT $RIGHT
+        ;;
     shield-generator-pack)
         ctrl $DOWN $UP $LEFT $RIGHT $LEFT $RIGHT
         ;;
-    # Robotics
+    # Robotics Workshop
     machine-gun-sentry)
         ctrl $DOWN $UP $RIGHT $RIGHT $UP
         ;;
@@ -173,7 +179,7 @@ case $1 in
     patriot-exosuit)
         ctrl $LEFT $DOWN $RIGHT $UP $LEFT $DOWN $DOWN
         ;;
-    # Mission
+    # General Stratagems
     reinforce)
         ctrl $UP $DOWN $RIGHT $LEFT $UP
         ;;

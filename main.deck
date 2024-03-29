@@ -59,7 +59,7 @@ deck = "heavy.deck"
 [keys.widget]
 id = "button"
 [keys.widget.config]
-icon = "icons/Patriotic Administration Center/Anti-Materiel Rifle.png"
+icon = "icons/Patriotic Administration Center/Machine Gun.png"
 
 [[keys]]
 index = 7
@@ -96,3 +96,12 @@ deck = "turret.deck"
 id = "button"
 [keys.widget.config]
 icon = "icons/Robotics Workshop/Machine Gun Sentry.png"
+
+[[keys]]
+index = 11
+[keys.action]
+deck = "heavy-2.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Patriotic Administration Center/Flamethrower.png"
