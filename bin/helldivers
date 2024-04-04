@@ -68,7 +68,7 @@ case $1 in
         ctrl $RIGHT $DOWN $RIGHT $DOWN $RIGHT $DOWN
         ;;
     laser-strike)
-        ctrl $RIGHT $DOWN $LEFT $UP $RIGHT $DOWN
+        ctrl $RIGHT $DOWN $UP $RIGHT $DOWN
         ;;
     railcannon-strike)
         ctrl $RIGHT $UP $DOWN $DOWN $RIGHT
