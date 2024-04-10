@@ -80,7 +80,7 @@ icon = "icons/Engineering Bay/Anti-Personnel Minefield.png"
 [[keys]]
 index = 8
 [keys.action]
-exec = "bin/helldivers icendiary-mines"
+exec = "bin/helldivers incendiary-mines"
 deck = "main.deck"
 [keys.widget]
 id = "button"
