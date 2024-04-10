@@ -21,3 +21,9 @@ Thanks to the following for their icons:
 
 - https://github.com/nvigneux/Helldivers-2-Stratagems-icons-svg for their Helldivers 2 svgs
 - https://github.com/cdemetriadis/lovely-streamdeck-icons for their handy generic icons
+
+# FAQ
+
+Q. Why not use deckmaster's built in key inputs and define it in the yaml?
+
+A. At least on my setup (Wayland/Hyprland) they don't reach the game window, thus a script which calls `xdotool`.
