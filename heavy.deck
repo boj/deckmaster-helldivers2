@@ -60,6 +60,16 @@ icon = "icons/Patriotic Administration Center/Heavy Machine Gun.png"
 [[keys]]
 index = 6
 [keys.action]
+exec = "bin/helldivers airburst-rocket-launcher"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Patriotic Administration Center/Airburst Rocket Launcher.png"
+
+[[keys]]
+index = 7
+[keys.action]
 exec = "bin/helldivers railgun"
 deck = "main.deck"
 [keys.widget]
@@ -68,7 +78,7 @@ id = "button"
 icon = "icons/Patriotic Administration Center/Railgun.png"
 
 [[keys]]
-index = 7
+index = 8
 [keys.action]
 exec = "bin/helldivers patriot-exosuit"
 deck = "main.deck"

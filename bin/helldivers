@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-# Same as my ligbov script from https://github.com/boj/ligvoc/
+# Same as my ligvoc script from https://github.com/boj/ligvoc/
 
 CTRL=Control_L
 UP=Up
@@ -18,6 +18,8 @@ function ctrl {
     echo $cmd
     eval $cmd
 }
+
+# https://helldivers.fandom.com/wiki/Stratagem_Codes_(Helldivers_2)
 
 case $1 in
     # Patriotic Administration Center
@@ -44,6 +46,9 @@ case $1 in
         ;;
     heavy-machine-gun)
         ctrl $DOWN $LEFT $UP $DOWN $DOWN
+        ;;
+    airburst-rocket-launcher)
+        ctrl $DOWN $UP $UP $LEFT $RIGHT
         ;;
     railgun)
         ctrl $DOWN $RIGHT $DOWN $UP $LEFT $RIGHT
@@ -168,7 +173,7 @@ case $1 in
         ctrl $DOWN $UP $LEFT $UP $RIGHT $DOWN
         ;;
     autocannon-sentry)
-        ctrl $DOWN $UP $LEFT $UP $RIGHT $UP
+        ctrl $DOWN $UP $RIGHT $UP $LEFT $UP
         ;;
     rocket-sentry)
         ctrl $DOWN $UP $RIGHT $RIGHT $LEFT
