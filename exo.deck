@@ -1,0 +1,28 @@
+[[keys]]
+index = 0
+[keys.action]
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/generic/generic-back.png"
+
+[[keys]]
+index = 1
+[keys.action]
+exec = "bin/helldivers patriot-exosuit"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Robotics Workshop/Patriot Exosuit.png"
+
+[[keys]]
+index = 2
+[keys.action]
+exec = "bin/helldivers emancipator-exosuit"
+deck = "main.deck"
+[keys.widget]
+id = "button"
+[keys.widget.config]
+icon = "icons/Robotics Workshop/Emancipator Exosuit.png"

@@ -184,6 +184,9 @@ case $1 in
     patriot-exosuit)
         ctrl $LEFT $DOWN $RIGHT $UP $LEFT $DOWN $DOWN
         ;;
+    emancipator-exosuit)
+        ctrl $LEFT $DOWN $RIGHT $UP $LEFT $DOWN $UP
+        ;;
     # General Stratagems
     reinforce)
         ctrl $UP $DOWN $RIGHT $LEFT $UP

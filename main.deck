@@ -89,13 +89,13 @@ id = "button"
 icon = "icons/Robotics Workshop/Machine Gun Sentry.png"
 
 [[keys]]
-index = 9
+index = 10
 [keys.action]
-deck = "turret.deck"
+deck = "exo.deck"
 [keys.widget]
 id = "button"
 [keys.widget.config]
-icon = "icons/Robotics Workshop/Machine Gun Sentry.png"
+icon = "icons/Robotics Workshop/Patriot Exosuit.png"
 
 [[keys]]
 index = 11

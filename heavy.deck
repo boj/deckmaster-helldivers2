@@ -76,13 +76,3 @@ deck = "main.deck"
 id = "button"
 [keys.widget.config]
 icon = "icons/Patriotic Administration Center/Railgun.png"
-
-[[keys]]
-index = 8
-[keys.action]
-exec = "bin/helldivers patriot-exosuit"
-deck = "main.deck"
-[keys.widget]
-id = "button"
-[keys.widget.config]
-icon = "icons/Robotics Workshop/Patriot Exosuit.png"
